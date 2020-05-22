@@ -10,8 +10,30 @@
   <title>Web Portfolio</title>
 </head>
 <body>
-
+<!--- Navigation -->
+<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-toggle="collapse"
+            data-target="#navbarResponsive">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About Me</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Personal Projects</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
 <!--- Header -->
+  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col-xl-12">
 <div id="slides" class="carousel slide" data-ride="carousel">
 <ul class="carousel-indicators">
   <li data-target="#slides" data-slide-to="0" class="active"></li>
@@ -20,32 +42,87 @@
 </ul>
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="example-welcome-img.png" alt="welcomeImg">
+      <img src="pexels-photo-691668.jpeg" alt="welcomeImg">
+      <div class="carousel-caption">
+        <h1 class="display-2">Welcome To My Page</h1>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <img src="pexels-photo-691668.jpeg" alt="welcomeImg">
+    </div>
+    <div class="carousel-item">
+      <img src="pexels-photo-691668.jpeg" alt="welcomeImg">
+    </div>
+  </div>
+  </div>
+</div>
+
+<!--- About Me -->
+
+<div class="card mb-3" style="max-width: 1900px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="pexels-photo-691668.jpeg" class="card-img" alt="...">
+    </div>
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">About Me</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. At consectetur lorem donec massa sapien faucibus et molestie ac. Pretium vulputate sapien nec sagittis. Elit pellentesque habitant morbi tristique senectus et netus et malesuada. Porttitor lacus luctus accumsan tortor posuere ac ut. Imperdiet massa tincidunt nunc pulvinar sapien et ligula ullamcorper. Vulputate enim nulla aliquet porttitor lacus. Condimentum vitae sapien pellentesque habitant morbi tristique senectus et netus. Dictumst quisque sagittis purus sit amet. Molestie a iaculis at erat. Enim eu turpis egestas pretium aenean pharetra. Quis vel eros donec ac odio tempor orci. Sed lectus vestibulum mattis ullamcorper velit sed ullamcorper morbi tincidunt. Enim sit amet venenatis urna cursus eget nunc scelerisque viverra. Euismod nisi porta lorem mollis aliquam ut porttitor leo.</p>
+      </div>
     </div>
   </div>
 </div>
-<!--- Navigation -->
-<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-<div class="container-fluid">
-  <button class="navbar-toggler" type="button" data-toggle="collapse"
-  data-target="#navbarResponsive">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarResponsive">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">About Me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Personal Projects</a>
-      </li>
-    </ul>
+
+
+<!--- Portfolio -->
+
+<div class="card-deck">
+<div class="card">
+  <img src="pexels-photo-691668.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Project1</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+  </div>
+  <div class="card-footer"></div>
+</div>
+<div class="card">
+  <img src="pexels-photo-691668.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Project2</h5>
+    <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+  </div>
+  <div class="card-footer">
   </div>
 </div>
-</nav>
+<div class="card">
+  <img src="pexels-photo-691668.jpeg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Project3</h5>
+    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+  </div>
+  <div class="card-footer">
+  </div>
+</div>
+</div>
+
+
+
+
+
+
+
+<!-- Default form contact -->
+<form class="text-center border border-light p-5">
+  <p class="h4 mb-4">Contact Me</p>
+  <input type="text" id="defaultContactFormName" class="form-control mb-4" placeholder="Name">
+  <input type="email" id="defaultContactFormEmail" class="form-control mb-4" placeholder="E-mail">
+  <div class="form-group">
+    <textarea class="form-control rounded-0" id="exampleFormControlTextarea2" rows="3" placeholder="Message"></textarea>
+  </div>
+  <button class="btn btn-info btn-block" type="submit">Send</button>
+</form>
+
+
 
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
