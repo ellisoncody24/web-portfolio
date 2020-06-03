@@ -1,7 +1,18 @@
 .about {
-    background-color: rgb(163,166,173);
+    background-color: rgb(212,215,224);
 }
 
 .portfolio {
-    background-color: rgb(163,166,173);
+    background-color: rgb(206,209,216);
+}
+
+form {
+    background-color: rgb(199,199,209);
+
+}
+
+footer {
+    background-color: grey;
+    height:fit-content
+
 }
