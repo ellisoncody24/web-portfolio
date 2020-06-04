@@ -1,3 +1,8 @@
 .about {
     background-color: rgb(158,161,168);
 }
+
+.icon {
+    color: red;
+    font-size: 4em
+}
