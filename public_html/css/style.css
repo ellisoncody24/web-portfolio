@@ -3,7 +3,9 @@
 
 }
 /*Welcome section*/
-
+.welcomeText {
+    color: snow;
+}
 
 .centered {
     position: absolute;
