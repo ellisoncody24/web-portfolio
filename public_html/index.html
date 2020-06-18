@@ -128,7 +128,7 @@
 
 
 <div class="col-md-9 mb-md-0 mb-5 text-light">
-  <form id="contact-form" name="contact-form" action="./apis/" method="POST">
+  <form id="contact-form" action="./apis/" method="POST">
     <!--Grid row-->
     <div class="row">
       <div class="col-md-6">
@@ -161,11 +161,13 @@
       </div>
     </div>
     <div class="g-recaptcha" data-sitekey="6LejdaYZAAAAAOuo2Uo3wiUW9TKdilV6G2_bVJ5f"></div>
+    <button type="submit">Send</button>
+
   </form>
   <div class="text-center text-md-left">
-    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>
+<!--    <a class="btn btn-primary" onclick="document.getElementById('contact-form').submit();">Send</a>-->
   </div>
-  <div class="status"></div>
+  <div id="output-area" class="status"></div>
 </div>
 
 
