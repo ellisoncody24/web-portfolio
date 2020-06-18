@@ -1,7 +1,7 @@
 {
-  "name": "contact-form-demo-cohort-29",
+  "name": "contact-form-pwp",
   "version": "1.0.0",
-  "description": "contact form demo for cohort 29",
+  "description": "contact form for pwp",
   "main": "index.js",
   "scripts": {
     "dev": "node index.js"
