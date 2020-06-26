@@ -1,12 +1,22 @@
-.pageBackground {
-    background-color: rgb(158,161,168);
+/*.pageBackground {*/
+/*    background-color: rgb(158,161,168);*/
+/*}*/
 
+.pageBackground {
+    background: url(../documentation/images/pexels-photo-691668.jpeg) no-repeat center right fixed;
+    background-size: cover;
+    font-family: 'Roboto', sans-serif;
+    position: relative;
 }
+
+
+
 /*Welcome section*/
-.welcomeText {
+.welcomeSection {
+    background-color: rgba(0,0,0,0.20);
+    border-radius: 0;
     color: snow;
 }
-
 .centered {
     position: absolute;
     top: 50%;
@@ -14,11 +24,11 @@
     transform: translate(-50%, -50%);
 }
 
-.about {
+/*.about {*/
 
-    background-color: rgb(158,161,168);
+/*    background-color: rgb(158,161,168);*/
 
-}
+/*}*/
 
 
 
