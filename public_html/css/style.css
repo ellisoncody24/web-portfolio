@@ -17,18 +17,16 @@
     border-radius: 0;
     color: snow;
 }
-.centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+
+
+
+/*.aboutSection*/
+
+.aboutSection{
+    border-radius: 0;
+    color: snow;
 }
 
-/*.about {*/
-
-/*    background-color: rgb(158,161,168);*/
-
-/*}*/
 
 
 
